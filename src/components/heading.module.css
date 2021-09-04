@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image {
+  width: 150px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
